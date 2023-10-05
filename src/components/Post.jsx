@@ -21,6 +21,16 @@ export function Post () {
                     <p><a href='#'>#newProject</a> {' '} <a href='#'>#developer</a></p>
                 </p>
             </div>
+
+            <form className={styles.commentForm}>
+                <strong>Leave your feedback</strong>
+                <textarea
+                    placeholder='Leave a comment'
+                />
+                <footer>
+                    <button type='submit'>Publish</button>
+                </footer>
+            </form>
         </article>
     )
 }
